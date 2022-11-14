@@ -28,7 +28,7 @@ class Forca {
       return 'ganhou'
     }
     
-    if(this.chances > 0 && !this.ganhou){
+    if(this.chances > 0 && !this.ganhou()){
       return 'aguardando chute'
     }
   } // Possiveis valores: "perdeu", "aguardando chute" ou "ganhou"
